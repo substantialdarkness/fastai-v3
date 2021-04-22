@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=185cCwiN1flqpILlnbDkDcL1ccHsgGHUI'
-export_file_name = 'export.pkl'
+export_file_name = 'export(1).pkl'
 
 classes = ['Trump', 'Biden', 'Kamala','Pence']
 path = Path(__file__).parent
